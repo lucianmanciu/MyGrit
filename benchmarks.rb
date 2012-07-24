@@ -6,6 +6,7 @@ require 'memcache'
 require 'pp'
 
 
+
 #require 'grit'
 require 'lib/grit'
 
@@ -125,5 +126,6 @@ def in_temp_dir(remove_after = true)
 end
 
 main()
+
 
 ##pp Grit::GitRuby.cache_client.stats 
